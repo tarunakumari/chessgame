@@ -1,0 +1,39 @@
+body{
+    background-color: #FCFCFC;
+    margin: 0;
+}
+
+#chessboard {
+    height: 500px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+
+#board {
+    padding: 5px;
+    border: solid 10px #C15C13;
+    background-color: #C15C13;
+    width: 398px;
+    height: 398px;
+    overflow: hidden;
+}
+
+.square {
+    display: inline-block;
+    margin: -2px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.black {
+    background-color: #4F0400;
+}
+
+.white {
+    background-color: #EADEA7;
+}
